@@ -186,10 +186,17 @@ h1 {
 
 .box5 {
   width: 100%;
+  margin-right: 0;
   background-color: #a39cdc;
 }
 .box5 p {
-  width: 998px;
+  font-weight: normal;
+  font-size: 14px;
+  color: 2c3e50;
+  font-family: "Lato";
+  width: 357.05px;
+  line-height: 24px;
+  width: 950px;
 }
 .box5 h3 {
   margin-top: 25px;

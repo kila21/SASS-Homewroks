@@ -121,8 +121,10 @@ h1 {
 
 .box5 {
   width: 100%;
+  margin-right: 0;
   p {
-    width: 998px;
+    @include all-paragraph;
+    width: 950px;
   }
   h3 {
     margin-top: 25px;
