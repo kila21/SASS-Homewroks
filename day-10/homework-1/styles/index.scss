@@ -1,0 +1,99 @@
+@import "reset";
+@import "pallete";
+@import "shared";
+
+@font-face {
+  font-family: "Lato Black";
+  src: url(../Lato/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato Light";
+  src: url(../Lato/Lato-Light.ttf);
+}
+
+body {
+  @include body-reset;
+}
+
+.main__continer {
+  width: 1171px;
+  height: 632px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+}
+
+h1 {
+  color: $text-header;
+  font-size: 30px;
+  font-family: "Lato Light";
+}
+.child__continer1 {
+  display: flex;
+}
+.box1 {
+  @include all-box;
+  border: $box-border;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.box2 {
+  padding-right: 0;
+}
+.box1 h3 {
+  @include all-header;
+}
+.box1 p {
+  @include all-paragraph;
+}
+
+.circle1 {
+  @include all-circle;
+  border: $circle1-border;
+  background-color: $circle1-color;
+}
+
+.close {
+  @include close;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.circle2 {
+  @include all-circle;
+  border: $circle2-border;
+  background-color: $circle2-color;
+}
+
+.circle3 {
+  @include all-circle;
+  border: $circle3-border;
+  background-color: $circle3-color;
+}
+
+.circle4 {
+  @include all-circle;
+  border: $circle4-border;
+  background-color: $circle4-color;
+}
+
+.circle5 {
+  @include all-circle;
+  border: $circle5-border;
+  background-color: $circle5-color;
+}
+
+.box3 {
+  width: 100%;
+  p {
+    width: 998px;
+  }
+  h3 {
+    margin-top: 19px;
+  }
+}

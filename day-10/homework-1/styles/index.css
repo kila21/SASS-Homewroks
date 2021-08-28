@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Lato Black";
+  src: url(../Lato/Lato-Black.ttf);
+}
+@font-face {
+  font-family: "Lato";
+  src: url(../Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato Light";
+  src: url(../Lato/Lato-Light.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 1920px;
+  max-width: 100wv;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__continer {
+  width: 1171px;
+  height: 632px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 30px;
+  font-family: "Lato Light";
+}
+
+.child__continer1 {
+  display: flex;
+}
+
+.box1 {
+  width: 575px;
+  height: 147px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-top: 30px;
+  border: 1px solid #e2e6e7;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.box2 {
+  padding-right: 0;
+}
+
+.box1 h3 {
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Lato Black";
+  color: #2c3e50;
+  letter-spacing: 0.1em;
+  margin-top: 17px;
+}
+
+.box1 p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #a1b1bc;
+  font-family: "Lato";
+  width: 357.05px;
+  line-height: 24px;
+}
+
+.circle1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 29px;
+  border: 7px solid #f9b718;
+  background-color: #ffc12d;
+}
+
+.close {
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Lato Black";
+  line-height: 24px;
+  text-align: left;
+  color: #cfd2d3;
+  width: 12px;
+  height: 19px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.circle2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 29px;
+  border: 7px solid #7bc200;
+  background-color: #97e411;
+}
+
+.circle3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 29px;
+  border: 7px solid #f55c43;
+  background-color: #fd7761;
+}
+
+.circle4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 29px;
+  border: 7px solid #47b4f6;
+  background-color: #6fd9fc;
+}
+
+.circle5 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 29px;
+  border: 7px solid #8781bd;
+  background-color: #a39cdc;
+}
+
+.box3 {
+  width: 100%;
+}
+.box3 p {
+  width: 998px;
+}
+.box3 h3 {
+  margin-top: 19px;
+}
+
+/*# sourceMappingURL=index.css.map */
