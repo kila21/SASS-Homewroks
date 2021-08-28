@@ -25,7 +25,7 @@ body {
   height: 632px;
   display: flex;
   flex-direction: column;
-  margin-top: 75px;
+  margin-top: 25px;
 }
 
 h1 {
@@ -57,7 +57,16 @@ h1 {
   border: $circle1-border;
   background-color: $circle1-color;
 }
-
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5 {
+  position: relative;
+}
+.circle1 i {
+  color: $icon1;
+}
 .close {
   @include close;
   position: absolute;
@@ -69,52 +78,58 @@ h1 {
   border: $circle2-border;
   background-color: $circle2-color;
 }
-
+.circle2 i {
+  color: $icon2;
+}
 .circle3 {
   @include all-circle;
   border: $circle3-border;
   background-color: $circle3-color;
 }
-
+.circle3 i {
+  color: $icon3;
+}
 .circle4 {
   @include all-circle;
   border: $circle4-border;
   background-color: $circle4-color;
 }
-
+.circle4 i {
+  color: $icon4;
+}
 .circle5 {
   @include all-circle;
   border: $circle5-border;
   background-color: $circle5-color;
 }
-.box1 i {
-  color: $icon1;
+.circle5 i {
+  color: $icon5;
 }
-.box2 i {
-  color: $icon2;
+.box1 {
+  background-color: $circle1-color;
 }
-.box3 i {
-  color: $icon3;
+.box2 {
+  background-color: $circle2-color;
 }
-.box4 i {
-  color: $icon4;
+
+.box3 {
+  background-color: $circle3-color;
 }
+.box4 {
+  background-color: $circle4-color;
+}
+
 .box5 {
   width: 100%;
   p {
     width: 998px;
   }
   h3 {
-    margin-top: 19px;
+    margin-top: 25px;
   }
+  background-color: $circle5-color;
 }
-.circle1,
-.circle2,
-.circle3,
-.circle4,
-.circle5 {
-  position: relative;
-}
+
 i {
   @include all-icon;
 }
